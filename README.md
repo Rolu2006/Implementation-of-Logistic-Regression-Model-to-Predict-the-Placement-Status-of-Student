@@ -22,6 +22,7 @@ Developed by:somalarajurohini
 RegisterNumber: 24000337 
 */
 ```
+```
 import pandas as pd
 data=pd.read_csv(r"C:\Users\admin\Desktop\Placement_Data.csv")
 data.head()
@@ -62,6 +63,7 @@ from sklearn.metrics import classification_report
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+```
 ## Output:
 ![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
 ![Screenshot 2024-11-24 214642](https://github.com/user-attachments/assets/0696aae8-04ba-429a-bdf4-b90bf91193c0)
